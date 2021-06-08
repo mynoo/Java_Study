@@ -20,8 +20,12 @@
   - Reference Type : 데이터가 있는 위치만 자신이 가지고 있다가 필요할때 그 데이터가 있는 곳으로 가서 데이터를 가져옴
     - ex) Member mem = new Member(); // Class, Array, Interface..
 
-
-hashcode()
-- 
+<br>
+- hashcode()
+  - 객체의 주소값을 변환하여 생성한 객체의 고유한 정수값
+    - ex) String str1 = new String("안녕"); 
+    -     String str2 = new String("안녕");  
+    -     String str3 = new String("안녕");  
+    -     str1과 str2는 객체는 달라도 hashcode는 동일 / str3은 다름
 
 ======= 2021년 06월 08일 ========
