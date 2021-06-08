@@ -15,27 +15,22 @@ public class Count8
 	public static void main(String[] args) 
 	{
 		
-		int count = 0;
+		int count = 0; // 카운터 변수
 		String eigth = "";
 		
 		
 		for(int i = 0; i<=10000; i++)
 		{
-			eigth = eigth.concat(String.valueOf(i));
+			eigth = eigth.concat(String.valueOf(i)); // 각 숫자들을 문자로 변환하여 일렬로 나열
 		}
 		
-		for(int j=0; j< eigth.length(); j++)
+		for(int j=0; j< eigth.length(); j++) // 문자 길이만큼 반복
 		{
-			if(eigth.charAt(j) == '8')
+			if(eigth.charAt(j) == '8') // 문자 하나씩 검사하여 8이면 카운터
 			{
 				count++;
 			}
 		}
-		
-		
 		System.out.println(count);
-		
-		
-		
 	}
 }
