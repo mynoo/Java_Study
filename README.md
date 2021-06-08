@@ -12,6 +12,8 @@
     - 단점 : 캡슐화와 격리구조에 때문에 실행속도가 느리다.
     - 언어) Java, JavaScript, Python, C#
 
+<br>
+<br>
 
 - <Value Type / Reference Type>
   - Value Type : 자신이 직접 데이터를 저장해서 보관
