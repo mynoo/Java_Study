@@ -13,7 +13,6 @@
     - 언어) Java, JavaScript, Python, C#
 
 <br>
-<br>
 
 - <Value Type / Reference Type>
   - Value Type : 자신이 직접 데이터를 저장해서 보관
