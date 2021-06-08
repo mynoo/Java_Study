@@ -29,4 +29,27 @@
           String str3 = new String("안녕");  
           str1과 str2는 객체는 달라도 hashcode는 동일 / str3은 다름
 
+<br>
+
+- <오버로딩 & 오버라이딩>
+  - Overloading(오버로딩)
+    - 같은 이름의 메소드 여러개 정의
+    - 매개변수의 타입이나 개수가 다름
+  - Overriding
+    - 부모클래스의 메소드를 자식클래스에서 재정의
+
+<br>
+
+- Generics(제네릭)
+  - 클래스나 메소드에서 사용할 내부 데이터 타입을 일반화하는것
+  - ex) MyArray<Integer> myArr = new MyArray<Integer>();
+    - 타입의 안정성 향상
+    - 타입체크와 형변환을 생략할 수 있으므로 코드가 간결
+
+
+
+
+
+
+
 ======= 2021년 06월 08일 ========
