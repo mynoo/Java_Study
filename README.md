@@ -24,8 +24,8 @@
 
 - hashcode()
   - 객체의 주소값을 변환하여 생성한 객체의 고유한 정수값
-    - ex) String str1 = new String("안녕"); "/n"
-          String str2 = new String("안녕");  
+    - ex) String str1 = new String("안녕"); <br>
+         &nbsp String str2 = new String("안녕");  
           String str3 = new String("안녕");  
           str1과 str2는 객체는 달라도 hashcode는 동일 / str3은 다름
 
