@@ -14,10 +14,10 @@
 
 
 - <Value Type / Reference Type>
-  Value Type : 자신이 직접 데이터를 저장해서 보관
-    ex) int x  = 10; // int, char, double...
-  Reference Type : 데이터가 있는 위치만 자신이 가지고 있다가 필요할때 그 데이터가 있는 곳으로 가서 데이터를 가져옴
-    ex) Member mem = new Member(); // Class, Array, Interface..
+  - Value Type : 자신이 직접 데이터를 저장해서 보관
+    - ex) int x  = 10; // int, char, double...
+  - Reference Type : 데이터가 있는 위치만 자신이 가지고 있다가 필요할때 그 데이터가 있는 곳으로 가서 데이터를 가져옴
+    - ex) Member mem = new Member(); // Class, Array, Interface..
 
 
 
