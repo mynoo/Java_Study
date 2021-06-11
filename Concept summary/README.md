@@ -56,3 +56,28 @@
   
 ======= 2021년 06월 11일 ========
 - SimpleDateFormat
+  - 시간을 원하는 방식으로 프린트 하기위한 클래스
+  
+문자 | 설명 | 예 |
+-- | -- | - |
+G | BC 혹은 AD | AD
+y | 년도 | 1996; 96
+M | 년 중 몇 번째 달인지 | July; Jul; 07
+w | 년 중 몇 번째 주인지(Week in year) | 27
+W | 월 중 몇 번째 주인지 (Week in month) | 2
+D | 년 중 몇 번째 날인지 (Day in year) | 189
+d | 이번 달 몇 번째 날인지 (Day in month) | 10
+F | 이번 달, 이번 주에서 몇 번째 날인지 (Day of Week in month) | 2
+E | 이번 주에서 몇 번째 날인지 (Day in week) | Tuesday; Tue
+a | 오전/오후 (AM/PM marker) | PM
+H | 하루 중 시각  (Hour in day) (0-23) | 0
+k | 하루 중 시각  (Hour in day) (1-24) | 24
+K | 오전/오후 시각 (Hour in am/pm) (0-11) | 0
+h | 오전/오후 시각 (Hour in am/pm) (1-12) | 12
+m | 분 (Minute in hour) | 30
+s | 초 (second in minute) | 55
+S | 밀리초 (Millisecond) | 978
+z | 타임존 (General time zone) | Pacific Standard Time; PST; GMT-08:00
+Z | 타임존 (RFC 822 time zone) | -0800
+  
+  
