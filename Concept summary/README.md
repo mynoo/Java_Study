@@ -83,3 +83,25 @@ z | 타임존 (General time zone) | Pacific Standard Time; PST; GMT-08:00
 Z | 타임존 (RFC 822 time zone) | -0800
   
 ***
+
+- 클래스 모음
+  
+- StringBuffer
+  - 문자열을 변경하고자할때 사용하는 클래스
+    - 특징 : append()로 문자열을 추가해나갈수 있다.
+    - ex) StringBuffer buf = new StringBuffer("자바")
+    - buf.append("공부")
+    - 출력: 자바공부
+    
+  
+***
+
+- 함수 모음
+  
+- insert() 메소드
+  설명 : StringBuffer클래스를 임포트 해야하며 문자열 사이에 특정 문자를 넣을때 사용된다.
+  - StringBuffer str = new StringBuffer("자바 재밌다")
+  - insert(2,"공부는") // 문자열 왼쪽부터 2번째에 "공부는"을 넣어준다.
+  - 출력 : 자바공부는 재밌다.
+ 
+  
