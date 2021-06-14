@@ -103,5 +103,13 @@ Z | 타임존 (RFC 822 time zone) | -0800
   - StringBuffer str = new StringBuffer("자바 재밌다")
   - insert(2,"공부는") // 문자열 왼쪽부터 2번째에 "공부는"을 넣어준다.
   - 출력 : 자바공부는 재밌다.
- 
   
+- split
+  - ex)split.str("@")
+  - 설명 : str 문자열을 @별로 나누어 배열로 저장.
+  
+- substring
+  설명 : 문자열을 자르는 함수
+  - 활용 :  String.substring(start) //문자열  start위치부터 끝까지 문자열 자르기
+  - String.substring(start,end) //문자열  start위치 부터 end전까지 문자열 발췌
+  - str.substring(3, 6); /*substring(시작위치,끝위치)
