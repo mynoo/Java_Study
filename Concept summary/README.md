@@ -27,7 +27,7 @@
     ```Javascript
           String str1 = new String("안녕");
           String str2 = new String("안녕");  
-          String str3 = new String("안녕");  
+          String str3 = new String("하이");  
     ```
     str1과 str2는 객체는 달라도 hashcode는 동일 / str3은 다름
 
