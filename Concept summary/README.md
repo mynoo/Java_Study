@@ -82,6 +82,11 @@ S | 밀리초 (Millisecond) | 978
 z | 타임존 (General time zone) | Pacific Standard Time; PST; GMT-08:00
 Z | 타임존 (RFC 822 time zone) | -0800
   
+  
+- GregorianCalendar
+  - Calendar라는 클래스가 추상클래스로 선언되어있음
+  - 지정한 날짜에 시간을 더할 때 GregorianCalendar 클래스 사용
+  - 전체적으로 Date와 Calendar가 합쳐진 느낌
 ***
 
 - 클래스 모음
