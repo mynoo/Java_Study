@@ -29,7 +29,7 @@ Windows 10, Eclipse, JavaSE-1.8(zulu15)
 <!-- CONTRIBUTING -->
 ## 📄 파일 구성
 
-- SpringStudent - 스프링을 이용한 간단한 웹 페이지 구현
+- Java Study - 다양한 함수를 이용한 예제 풀이
 
 - Concept summary - Spring boot를 공부하면서 몰랐던 점과 요약정리에 대한 Summary 정리
 
