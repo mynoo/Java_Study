@@ -1,8 +1,6 @@
 
-<img src="https://img.shields.io/badge/Spring Boot-3DDC84?style=flat-square&logo=Android&logoColor=white"/>
 
 
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
     <img src="./logo.png" alt="Logo" width="600" height="250">
@@ -11,7 +9,7 @@
   <h3 align="center">조민우의 Java Study</h3>
 
   <p align="center">
-    더욱 수월한 웹 개발을 위한 Spring boot!
+    더욱 수월한 웹 개발을 위한 !
 
 
   </p>
@@ -31,7 +29,7 @@ Windows 10, Eclipse, JavaSE-1.8(zulu15)
 
 - Java Study - 다양한 함수를 이용한 예제 풀이
 
-- Concept summary - Spring boot를 공부하면서 몰랐던 점과 요약정리에 대한 Summary 정리
+- Concept summary - JAVA를 공부하면서 몰랐던 점과 요약정리에 대한 Summary 정리
 
 
 
