@@ -22,27 +22,28 @@
 
 ***
 
-- <절차지향과 객체지향>
-  - 절차지향 : 프로그램의 실행 절차에 중점을 둔 프로그래밍의 일종
-    - 장점 : 컴퓨터의 처리구조와 유사해 실행속도가 빠름
-    - 단점 : 1. 코드의 수정이 어려움
-             2. 유지보수가 어려움
-    - 언어) C언어
-  - 객체지향 : 프로그램에서 다수의 "객체"를 만들고, 이들이 서로 상호작용을 통해 만들어지는 방식이다.
-    - 장점 : 1.상속을 통해 프로그래밍시 코드의 재사용을 높일 수 있음
-             2.프로그램 수정시 추가, 수정을 하더라도 캡슐화를 통해 주변 영향이 적기때문에 유지보수가 쉬움
-    - 단점 : 캡슐화와 격리구조에 때문에 실행속도가 느리다.
-    - 언어) Java, JavaScript, Python, C#
+## 절차지향과 객체지향
+- 절차지향 : 프로그램의 실행 절차에 중점을 둔 프로그래밍의 일종
+  - 장점 : 컴퓨터의 처리구조와 유사해 실행속도가 빠름
+  - 단점 : 1. 코드의 수정이 어려움
+           2. 유지보수가 어려움
+  - 언어) C언어
+- 객체지향 : 프로그램에서 다수의 "객체"를 만들고, 이들이 서로 상호작용을 통해 만들어지는 방식이다.
+  - 장점 : 1.상속을 통해 프로그래밍시 코드의 재사용을 높일 수 있음
+           2.프로그램 수정시 추가, 수정을 하더라도 캡슐화를 통해 주변 영향이 적기때문에 유지보수가 쉬움
+  - 단점 : 캡슐화와 격리구조에 때문에 실행속도가 느리다.
+  - 언어) Java, JavaScript, Python, C#
 
 ***
-
-- 객체 : 클래스 모양대로 생성된 실체. 클래스의 인스턴스 instance. 사례
-- 클래스 : 객체를 만들기 위한 설계도.
-- 멤버 : 클래스의 구성 요소. 필드와 메소드 두 종류가 있다.
-- 필드 : 객체 내 값을 저장할 멤버 변수
-- 메소드 : 함수이며 객체의 행동을 구현
-
-
+## 제너릭(Generic)이란?
+* 데이터 형식에 의존하지 않고, 하나의 값이 여러 다른 데이터 타입들을 가질 수 있도록 하는 방법
+* 제너릭을 사용하는 이유는?
+  * 잘못된 타입이 들어올 수 있는 것을 컴파일 단계에서 방지할 수 있다. 
+  * 타입을 체크하고 변환해줄 필요가 없어 관리가 편하다.
+  * 코드의 재사용성이 높아진다.
+```
+ArrayList<String> list1 = new ArrayList<Integer>();
+```
 
 
 ***
@@ -83,10 +84,6 @@
 
 ***
 
-- 문자형 배열의 오름차순 & 내림차순
-  - 오름차순 : Arrays.sort(배열변수명);
-  - 내림차순 : Arrays.sort(배열변수명, Collections.reverseOrder());
-  - 출력 : Arrays.toString(배열변수명)
 
 ***
   
@@ -120,17 +117,49 @@ Z | 타임존 (RFC 822 time zone) | -0800
   - Calendar라는 클래스가 추상클래스로 선언되어있음
   - 지정한 날짜에 시간을 더할 때 GregorianCalendar 클래스 사용
   - 전체적으로 Date와 Calendar가 합쳐진 느낌
+  
+  
+  
+  
 ***
 
-- 클래스 모음
   
-- StringBuffer
-  - 문자열을 변경하고자할때 사용하는 클래스
-    - 특징 : append()로 문자열을 추가해나갈수 있다.
-    - ex) StringBuffer buf = new StringBuffer("자바")
-    - buf.append("공부")
-    - 출력: 자바공부
-    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div align="center" id="top">
+  <h1> 📖Java Class</h1>
+</div>
+  
+### StringBuffer
+- 문자열을 변경하고자할때 사용하는 클래스
+  - 특징 : append()로 문자열을 추가해나갈수 있다.
+  - ex) StringBuffer buf = new StringBuffer("자바")
+  - buf.append("공부")
+  - 출력: 자바공부
+- insert() 메소드
+  - 설명 : StringBuffer클래스를 임포트 해야하며 문자열 사이에 특정 문자를 넣을때 사용된다.
+  - StringBuffer str = new StringBuffer("자바 재밌다")
+  - insert(2,"공부는") // 문자열 왼쪽부터 2번째에 "공부는"을 넣어준다.
+  - 출력 : 자바공부는 재밌다.
   
 ***
 
@@ -151,16 +180,26 @@ Z | 타임존 (RFC 822 time zone) | -0800
     String a = "aaa";
     String b = a;
     String c = new String ("aaa");
+    
+    System.out.println( a.equals(b)); // true
+    System.out.println( a==b); // true
+    System.out.println( a==c); // false
+    System.out.println( a.equals(c)); // true
 ```
+    
+<img height="170px" width="250px" src="./equals참고사진.png"><br>
+    
+
+### 문자형 배열의 오름차순 & 내림차순
+  - 오름차순 : Arrays.sort(배열변수명);
+  - 내림차순 : Arrays.sort(배열변수명, Collections.reverseOrder());
+  - 출력 : Arrays.toString(배열변수명)
+
 
 
   
   
-- insert() 메소드
-  설명 : StringBuffer클래스를 임포트 해야하며 문자열 사이에 특정 문자를 넣을때 사용된다.
-  - StringBuffer str = new StringBuffer("자바 재밌다")
-  - insert(2,"공부는") // 문자열 왼쪽부터 2번째에 "공부는"을 넣어준다.
-  - 출력 : 자바공부는 재밌다.
+
   
 - split
   - ex)split.str("@")
