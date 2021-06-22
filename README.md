@@ -9,7 +9,7 @@
   <h3 align="center">조민우의 Java Study</h3>
 
   <p align="center">
-    더욱 수월한 웹 개발을 위한 !
+    🏃‍♂️기초부터 개념을 다져가며 꾸준한 Java 지식 습득!
 
 
   </p>
