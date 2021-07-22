@@ -17,15 +17,19 @@ public class Fibonacci
 		System.out.println("숫자를 입력하세요.>>");
         int count = scan.nextInt();
         
-        for(int i=0; i<count; i++){
+        for(int i=0; i<count; i++)
+        {
             System.out.print(fibonacci(i) + " ");
         }
     }
 
-    public static int fibonacci(int n){
-        if(n <= 1){
+    public static int fibonacci(int n)
+    {
+        if(n <= 1)
+        {
             return n;
-        }else{
+        }else
+        {
             return fibonacci(n-2) + fibonacci(n-1);
         }
     }
