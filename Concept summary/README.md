@@ -8,7 +8,7 @@
 ***
 
 ## 웹 서버란?
-* 클라이언트에에게 HTML 문서나 각종 리소스를 응답을 전달해주는 역할.
+* 클라이언트에게 HTML 문서나 각종 리소스를 응답을 전달해주는 역할.
 * 서버 범위 중 클라이언트와 가장 맞닿아 있음.
 * ex. Nginx, Apache
 
@@ -161,7 +161,13 @@ Z | 타임존 (RFC 822 time zone) | -0800
   - insert(2,"공부는") // 문자열 왼쪽부터 2번째에 "공부는"을 넣어준다.
   - 출력 : 자바공부는 재밌다.
   
+### DriverManager
+ * JDBC 드라이버들의 집합을 관리하는 기본적인 작업을 수행.
+ * 데이터베이스 드라이버들을 로딩하고, 데이터베이스에 연결에 관해 책임지는 클래스.
+ * 사용할 드라이버는 드라이버 매니져가 드라이버를 구동하기 전에 등록되어 있어야 함.
+  
 ***
+
 
 <div align="center" id="top">
   <h1> 📖Java 함수</h1>
@@ -210,3 +216,12 @@ Z | 타임존 (RFC 822 time zone) | -0800
   - 활용 :  String.substring(start) //문자열  start위치부터 끝까지 문자열 자르기
   - String.substring(start,end) //문자열  start위치 부터 end전까지 문자열 발췌
   - str.substring(3, 6); /*substring(시작위치,끝위치)
+    
+    
+### replaceAll
+첫번째 인자값은 변환하고자하는 대상이 되는 문자열, 두번째 인자값은 변환할 문자값
+```
+String str1 = "aaaa";
+System.out.println(str1.replaceAll("aa","b"));
+//결과 -> bb
+```
