@@ -48,15 +48,14 @@ ArrayList<String> list1 = new ArrayList<Integer>();
 
 ***
 
-- <Value Type / Reference Type>
+## <Value Type / Reference Type>
   - Value Type : 자신이 직접 데이터를 저장해서 보관
     - ex) int x  = 10; // int, char, double...
   - Reference Type : 데이터가 있는 위치만 자신이 가지고 있다가 필요할때 그 데이터가 있는 곳으로 가서 데이터를 가져옴
     - ex) Member mem = new Member(); // Class, Array, Interface..
 
-***
 
-- hashcode()
+## hashcode()
   - 객체의 주소값을 변환하여 생성한 객체의 고유한 정수값
     ```Javascript
           String str1 = new String("안녕");
@@ -65,30 +64,30 @@ ArrayList<String> list1 = new ArrayList<Integer>();
     ```
     str1과 str2는 객체는 달라도 hashcode는 동일 / str3은 다름
 
-***
 
-- <오버로딩 & 오버라이딩>
+## <오버로딩 & 오버라이딩>
   - Overloading(오버로딩)
     - 같은 이름의 메소드 여러개 정의
     - 매개변수의 타입이나 개수가 다름
   - Overriding
     - 부모클래스의 메소드를 자식클래스에서 재정의
 
-***
 
-- Generics(제네릭)
+
+
+## Generics(제네릭)
   - 클래스나 메소드에서 사용할 내부 데이터 타입을 일반화하는것
   - ex) MyArray<Integer> myArr = new MyArray<Integer>();
     - 타입의 안정성 향상
     - 타입체크와 형변환을 생략할 수 있으므로 코드가 간결
 
-***
 
 
-***
+
   
-- SimpleDateFormat
-  - 시간을 원하는 방식으로 프린트 하기위한 클래스
+
+## SimpleDateFormat
+- 시간을 원하는 방식으로 프린트 하기위한 클래스
   
 문자 | 설명 | 예 |
 -- | -- | - |
